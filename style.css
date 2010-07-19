@@ -10,6 +10,17 @@ Version:        0.1.0
 /** @import url("../twentyten/style.css"); **/
 /**  darkgreen #5A7A61 // lightgreen #88AF4A // blue #448995  **/
 
+/** TESTING **/
+
+
+
+
+
+
+
+/** </TESTING> **/
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -97,7 +108,7 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 #secondary {
 	float: right;
 	overflow: hidden;
-	width: 220px;
+	width: 240px;
 }
 #secondary {
 	clear: right;
@@ -135,7 +146,7 @@ DESCRIPTION: Full width content with no sidebar; used for attachment pages
 div#masthead{
 background-color:#448995;
 color:white;
-height:100px;
+height:80px;
 }
 
 /* =Structure
@@ -148,7 +159,7 @@ height:100px;
 #main,
 #aligncenter{
 	margin: 0 auto;
-	width: 940px;
+	width: 1040px;
 }
 
 #wrapper {
@@ -170,6 +181,7 @@ height:100px;
 	width:300px;
 	float:right;
 	text-align:right;
+	padding-top:10px;
 }
 
 #searchprojects{
@@ -181,7 +193,7 @@ height:100px;
 #footer-widget-area .widget-area {
 	float: left;
 	margin-right: 20px;
-	width: 210px;
+	width: 22%;
 	border-left:2px solid #fff;
 	padding-left:5px;
 	margin-top:10px;
@@ -202,7 +214,7 @@ height:100px;
 	width: 220px;
 }
 
-#footer h2, #footer h3{
+#footer-widget-area h2, #footer-widget-area h3{
 	color:#fff;
 	padding-bottom:1em;
 }
@@ -233,6 +245,9 @@ height:100px;
 	width: 220px;
 }
 
+#homelink{
+	margin-top:5px;
+}
 /** main
 -----------------------------------------------**/
 body,
@@ -270,7 +285,7 @@ div.menu{
 
 #topnavi{
 	text-align:right;
-	margin: 30px auto 0;
+	margin: 20px auto 0;
 	width: 640px;
 	float:right;
 }
@@ -288,6 +303,7 @@ div.menu ul {
 div.menu li {
 	position: relative;
 	display:inline;
+	margin:0 1px;
 }
 
 #topnavi ul li a{
@@ -360,17 +376,61 @@ html #topnavi ul ul li.current_page_item a{
 	color:#fff;
 }
 
+/** slideshow home **/
 
-/**
+#slide_wrapper{
+	margin:20px 40px 0;
+	width:650px;
+	height:340px;
+	text-align:center;
+}
 
-* html #topnavi ul li.current_page_item a,
-* html #topnavi ul li.current-menu-ancestor a,
-* html #topnavi ul li.current-menu-item a,
-* html #topnavi ul li.current-menu-parent a,
-* html #topnavi ul li a:hover {
+#loopedSlider .container { 
+	width:670px; 
+	height:300px; 
+	overflow:hidden; 
+	position:relative; 
+}
+
+#loopedSlider .slides { 
+	position:absolute; 
+	top:0; 
+
+}
+
+#loopedSlider .slides div { 
+	position:absolute; 
+	top:0; 
+	width:670px; 
+	display:none; 
+
+}
+
+#loopedSlider a.previous, #loopedSlider a.next{
+	background-color:#448995;
+	padding:5px 10px;
 	color:#fff;
-}  **/
+	font-weight:bold;
+	border:2px solid #448995;
+}
 
+#slideshow{
+	background-color:#fff;
+	text-align:center;
+	border:5px solid #448995;
+	margin-bottom:20px;	
+}
+
+#slideshow h1{
+	color:#448995;
+	padding-top:10px;
+	padding-bottom:0;
+}
+
+.slides img{
+height:280px;
+width:500px;
+}
 
 /** widgets
 ------------------------------------------------------**/
@@ -389,12 +449,43 @@ html #topnavi ul ul li.current_page_item a{
 
 #primary li.widget-container, #secondary li.widget-container{
 	margin-bottom:20px;
-	padding:5px;
 }
 #primary li.widget-container{
-	border:2px solid #88AF4A;
+	background-color: #88AF4A;
 }
+
+/** Tag-Cloud **/
 
 .widget_tag_cloud a{
 	line-height:1.1em;
+}
+
+/**  Twitter **/
+#primary h3.widget-title{
+	padding:10px;
+	color:#fff;
+}
+
+.aktt_tweets li{
+	margin:0 5px;
+	padding:5px;
+	font-size:1em;
+	background-color:#fff;
+	border-top:1px solid #88AF4A;
+}
+
+li.aktt_more_updates a{
+	color:#fff;
+}
+
+li.aktt_more_updates{
+	padding:10px;
+	margin:0;
+	background-color:#88AF4A;
+}
+
+/** events **/
+
+#wpng-cal-widget-events{
+	background-color:#fff;
 }
