@@ -141,13 +141,6 @@ DESCRIPTION: Full width content with no sidebar; used for attachment pages
 	width: 900px;
 }
 
-/**  HEADER **/
-
-div#masthead{
-background-color:#448995;
-color:white;
-height:80px;
-}
 
 /* =Structure
 -------------------------------------------------------------- */
@@ -156,10 +149,13 @@ height:80px;
 #access .menu-header,
 #colophon,
 #branding,
-#main,
-#aligncenter{
+#main{
 	margin: 0 auto;
 	width: 1040px;
+}
+
+#aligncenter{
+	margin:0 50px;
 }
 
 #wrapper {
@@ -223,8 +219,16 @@ height:80px;
 -------------------------------------------------------------- */
 
 #header {
-	padding: 0 0 20px 0;
+	margin-bottom:20px;
+	background-color:#448995;
+	color:#fff;
 }
+
+div#masthead{
+height:80px;
+margin:0 50px;
+}
+
 #site-title {
 	float: left;
 	margin: 0 0 18px 0;
