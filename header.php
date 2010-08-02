@@ -32,8 +32,9 @@
 
 <?php wp_head(); ?>
 <script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/jquery.curvycorners.min.js'></script>
-<script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/js_custom.js'></script>
 <script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/loopslider.js'></script>
+<script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/js_custom.js'></script>
+
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?><?php
 if (is_tree(4)) { ?>/projects.css<?php } elseif (is_tree(6)){ ?>/wogr.css<?php } ?>" media="all" />
@@ -44,7 +45,20 @@ if (is_tree(4)) { ?>/projects.css<?php } elseif (is_tree(6)){ ?>/wogr.css<?php }
 	<div id="header">
 		<div id="masthead">
 			<div id="branding" role="banner">
-				<div id="homelink"><a href="<?php bloginfo('url'); ?>" alt="home"><img src="<?php bloginfo('url'); ?>/wp-content/themes/okfn/images/okf_logo.png" /></a></div>
+				<div id="logo">
+				<div id="homelink"><a href="<?php bloginfo('url'); ?>" alt="home"><img src="http://m.okfn.org/images/logo/okf_logo_white_and_green.png" alt="OKF Logo" /></a></div> <!-- /homelink -->
+		
+				<div id="tagline_title">
+					<h1 id="site-title">
+					<span>
+						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					</span>
+					</h1>
+					<div id="site-description"><?php bloginfo( 'description' ); ?></div>
+				</div> <!-- /tagline_title -->
+				</div> <!-- /logo -->	
+				
+				
 				<div id="searchtop"><?php get_search_form(); ?></div>
 				<div id="topnavi" role="navigation">
 					<?php wp_nav_menu( array( 'container_class' => 'menu-header','depth' => '1', 'theme_location' => 'primary' ) ); ?>
