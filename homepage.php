@@ -7,7 +7,7 @@ Template Name: Homepage
 
 		<div id="container">
 			<div id="content" role="main">
-		<!-->		<h1 class="entry-title">From sonnets to statistics, genes to geodata</h1>  -->
+		      <h1 class="entry-title">From sonnets to statistics, genes to geodata</h1>
 					<div class="entry-content">
 						<img src="<?php bloginfo('url'); ?>/wp-content/themes/okfn/images/front_animation_bg.png" />
 					</div>
