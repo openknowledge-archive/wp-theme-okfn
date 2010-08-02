@@ -1,7 +1,7 @@
 /*
-Theme Name:     Open Knowledge Foundation
+Theme Name:     OKFN
 Theme URI:      http://okfn.org/
-Description:    Child theme for the Twenty Ten 
+Description:    Theme for the OKFN
 Author:         Stefanie Doll
 Template:       twentyten
 Version:        0.1.0
@@ -141,13 +141,6 @@ DESCRIPTION: Full width content with no sidebar; used for attachment pages
 	width: 900px;
 }
 
-/**  HEADER **/
-
-div#masthead{
-background-color:#448995;
-color:white;
-height:80px;
-}
 
 /* =Structure
 -------------------------------------------------------------- */
@@ -156,10 +149,13 @@ height:80px;
 #access .menu-header,
 #colophon,
 #branding,
-#main,
-#aligncenter{
+#main{
 	margin: 0 auto;
 	width: 1040px;
+}
+
+#aligncenter{
+	margin:0 50px;
 }
 
 #wrapper {
@@ -170,24 +166,6 @@ height:80px;
 /* Structure the footer area */
 #footer-widget-area {
 	overflow: hidden;
-}
-
-#homelink{
-	width:250px;
-	float:left;
-}
-
-#searchtop{
-	width:300px;
-	float:right;
-	text-align:right;
-	padding-top:10px;
-}
-
-#searchprojects{
-	width:200px;
-	float:right;
-	text-align:right;
 }
 
 #footer-widget-area .widget-area {
@@ -223,31 +201,68 @@ height:80px;
 -------------------------------------------------------------- */
 
 #header {
-	padding: 0 0 20px 0;
+	margin-bottom:20px;
+	background-color:#448995;
+	color:#fff;
 }
-#site-title {
-	float: left;
-	margin: 0 0 18px 0;
-	width: 700px;
-	font-size: 30px;
-	line-height: 36px;
+
+div#masthead{
+height:80px;
+margin:0 50px;
 }
-#site-title a {
-	color: #000;
-	font-weight: bold;
-	text-decoration: none;
-}
-#site-description {
-	clear: right;
-	float: right;
-	font-style: italic;
-	margin: 14px 0 18px 0;
-	width: 220px;
+
+div#logo{
+	width:400px;
+	height:80px;
+	float:left;
 }
 
 #homelink{
 	margin-top:5px;
+	width:80px;
+	float:left;	
 }
+
+#tagline_title{
+	float:left;
+	padding-top:15px;
+}
+
+#site-title {
+	width: 300px;
+	font-size: 20px;
+}
+
+h1#site-title{
+	padding:0;
+}
+
+#site-title a {
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:20px;
+}
+#site-description {
+	width: 300px;
+	color:#fff;
+	font-size:14px;
+}
+
+#searchtop{
+	width:300px;
+	float:right;
+	text-align:right;
+	padding-top:10px;
+}
+
+#searchprojects{
+	width:200px;
+	float:right;
+	text-align:right;
+}
+
+
 /** main
 -----------------------------------------------**/
 body,
@@ -291,16 +306,16 @@ div.menu{
 }
 
 #topnavi .menu-header,
-div.menu {
+.menu {
 	font-size: 13px;
 	text-transform:uppercase;
 	font-weight:bold;
 }
-div.menu ul {
+.menu ul {
 	margin: 0;
 }
 
-div.menu li {
+.menu li {
 	position: relative;
 	display:inline;
 	margin:0 1px;
@@ -395,14 +410,13 @@ html #topnavi ul ul li.current_page_item a{
 #loopedSlider .slides { 
 	position:absolute; 
 	top:0; 
-
 }
 
 #loopedSlider .slides div { 
 	position:absolute; 
 	top:0; 
 	width:670px; 
-	display:none; 
+	display:none;
 
 }
 
@@ -452,6 +466,7 @@ width:500px;
 }
 #primary li.widget-container{
 	background-color: #88AF4A;
+	padding-bottom:5px;
 }
 
 /** Tag-Cloud **/
@@ -461,17 +476,16 @@ width:500px;
 }
 
 /**  Twitter **/
-#primary h3.widget-title{
+#primary h3.widget-title, #primary h3.widgettitle{
 	padding:10px;
 	color:#fff;
 }
 
 .aktt_tweets li{
-	margin:0 5px;
+	margin:2px 5px;
 	padding:5px;
 	font-size:1em;
 	background-color:#fff;
-	border-top:1px solid #88AF4A;
 }
 
 li.aktt_more_updates a{
@@ -488,4 +502,19 @@ li.aktt_more_updates{
 
 #wpng-cal-widget-events{
 	background-color:#fff;
+}
+
+#wpng-cal-widget-events{
+	margin:0 5px;
+	padding:5px;
+	font-size:1em;
+	background-color:#fff;
+}
+#wpng-cal-widget-events li{
+    margin-bottom:.5em;
+}
+
+.wpng-widget-date-title {
+	margin:6px 0;
+	font-size:1.2em;
 }

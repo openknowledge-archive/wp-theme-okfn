@@ -12,7 +12,7 @@ $j(document).ready(function() {
 		  tr: { radius: 10 },
 		  bl: { radius: 10 },
 		  br: { radius: 10 }});
-		$j('wpng-cal-widget-events').corner({
+		$j('#wpng-cal-widget-events').corner({
 		  tl: { radius: 10 },
 		  tr: { radius: 10 },
 		  bl: { radius: 10 },
@@ -23,6 +23,5 @@ $j(document).ready(function() {
 		  bl: { radius: 20 },
 		  br: { radius: 20 }});
 		$j('#loopedSlider a.previous').corner();
-		$j('#loopedSlider a.next').corner();
-	
+		$j('#loopedSlider a.next').corner();	
 });
