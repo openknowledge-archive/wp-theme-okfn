@@ -56,6 +56,7 @@ ol, ul {
 
 #wrapper {
 	background-color: transparent;
+	margin-top:0;
 }
 
 
@@ -170,23 +171,23 @@ ul {
 	margin: 0 0 18px 18px;
 }
 
-
 /* =Menu
 -------------------------------------------------------------- 
+*/
+#access .menu-header ul, div.menu ul {
+float:right;
+list-style:none outside none;
+margin:0;
+}
 
+/*
 div.menu{
 	margin: 0 auto;
 	width: 640px;
 }
 
-#topnavi{
-	text-align:right;
-	margin: 20px auto 0;
-	width: 640px;
-	float:right;
-}
 
-#topnavi .menu-header,
+#access .menu-header,
 .menu {
 	font-size: 13px;
 	text-transform:uppercase;
@@ -202,14 +203,14 @@ div.menu{
 	margin:0 1px;
 }
 
-#topnavi ul li a{
+#access ul li a{
 	text-decoration:none;
 	padding:5px 10px;
 	line-height:18px;
 	color:#fff;
 }
 
-#topnavi ul ul {
+#access ul ul {
 	display:block;
 	position:absolute;
 	top:18px;
@@ -227,12 +228,12 @@ div.menu{
 }
 
 
-#topnavi ul ul ul {
+#access ul ul ul {
 	left:100%;
 	top:0;
 }
 
-#topnavi ul ul a {
+#access ul ul a {
 	background-color:#fff;
 	height:auto;
 	line-height:1.5em;
@@ -242,32 +243,32 @@ div.menu{
 	font-size:10px;
 	border-top:2px solid #448995;
 }
-#topnavi li:hover > a,
-#topnavi ul ul :hover > a {
+#access li:hover > a,
+#access ul ul :hover > a {
 	color:#448995;
 	background-color:#fff;
 }
 
-#topnavi ul ul li:hover > a {
+#access ul ul li:hover > a {
 color:#fff;
 background-color:#448995;
 }
 
-#topnavi ul li:hover > ul {
+#access ul li:hover > ul {
 	display:block;
 }
-#topnavi ul li.current_page_item > a,
-#topnavi ul li.current-menu-ancestor > a,
-#topnavi ul li.current-menu-item > a,
-#topnavi ul li.current-menu-parent > a {
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
 	color: #448995;
 }
-html #topnavi ul li.current_page_item a,
-html #topnavi ul li.current-menu-parent a{
+html #access ul li.current_page_item a,
+html #access ul li.current-menu-parent a{
 	background-color:#fff;
 }
 
-html #topnavi ul ul li.current_page_item a{
+html #access ul ul li.current_page_item a{
 	background-color:#448995;
 	color:#fff;
 }
@@ -279,8 +280,9 @@ html #topnavi ul ul li.current_page_item a{
 	list-style-type:none;
 }
 
-.widget-area ul{
+#main .widget-area ul{
 	margin:0;
+	padding:0;
 }
 
 #main .widget-area ul ul, .widget-area ul ul  {
