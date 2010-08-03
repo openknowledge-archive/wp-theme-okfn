@@ -52,7 +52,8 @@
 						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 					</span>
 				</h1>
-				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
+				<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
+				<div id="searchbox">search goes here</div>
 
 			</div><!-- #branding -->
 

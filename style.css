@@ -47,7 +47,7 @@ a:hover{
 }
 
 ol, ul {
-	list-style: none;
+	list-style-type: none;
 }
 
 
@@ -64,17 +64,57 @@ ol, ul {
 /* Structure the footer area */
 
 
-#footer-widget-area h2, #footer-widget-area h3{
-	color:#448995;
+#colophon {
+	border-top:2px solid #222;
 }
 
-#colophon {
-	border-top:4px solid #448995;
+#footer-widget-area a{
+	text-decoration:underline;
+	color:#666;
+}
+
+#footer-widget-area a:hover{
+	color:#222;
+	text-decoration:none;
 }
 
 /* =Header
--------------------------------------------------------------- 
+-------------------------------------------------------------- */
 
+#header{
+	padding:10px 0 0;
+	background:transparent url('http://m.okfn.org/images/logo/okf_logo_white_and_green.png') no-repeat top left;
+	height:100px;
+}
+
+#site-title a {
+color:#fff;
+font-weight:bold;
+text-decoration:none;
+}
+
+#site-description {
+	color:#fff;
+	font-style:normal;
+	width:600px;
+	float:left;
+	clear:none;
+	margin:0;
+	padding-left:100px;
+}
+
+h1#site-title{
+	font-size:1.9em;
+}
+
+#site-title {
+float:left;
+margin:0;
+width:600px;
+padding-left:100px;
+}
+
+/*
 #header {
 	margin-bottom:20px;
 	background-color:#448995;
@@ -112,9 +152,7 @@ div#logo{
 	font-size: 20px;
 }
 
-h1#site-title{
-	padding:0;
-}
+
 
 #site-title a {
 	color:#fff;
@@ -146,6 +184,10 @@ h1#site-title{
 -----------------------------------------------**/
 body{
 	background:#fff url('images/bg.png') repeat-x top left;
+}
+
+#main{
+	padding:10px 0 0;
 }
 
 body,
@@ -180,28 +222,33 @@ list-style:none outside none;
 margin:0;
 }
 
-/*
-div.menu{
-	margin: 0 auto;
-	width: 640px;
-}
-
-
 #access .menu-header,
 .menu {
 	font-size: 13px;
 	text-transform:uppercase;
 	font-weight:bold;
 }
-.menu ul {
-	margin: 0;
+
+#access{
+	background:transparent;
 }
 
-.menu li {
-	position: relative;
-	display:inline;
-	margin:0 1px;
+#access a {
+	color:#fff;
 }
+
+#access li:hover > a, #access ul ul :hover > a {
+background:none repeat scroll 0 0 #fff;
+color:#448995;
+}
+
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+color:#448995;
+background-color:#fff;
+}
+
+
+/*
 
 #access ul li a{
 	text-decoration:none;
@@ -276,6 +323,10 @@ html #access ul ul li.current_page_item a{
 
 /** widgets
 ------------------------------------------------------**/
+.widget-area a, .widget-area a:active, .widget-area a:hover {
+	color:#88AF4A;
+}
+
 .widget-area li{
 	list-style-type:none;
 }
@@ -290,7 +341,7 @@ html #access ul ul li.current_page_item a{
 	margin-left:0;
 }
 
-.widget-area a, .widget-area{
+#primary a, #primary, #secondary, #secondary a{
 	font-weight:bold;
 }
 
