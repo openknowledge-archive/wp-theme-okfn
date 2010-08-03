@@ -47,13 +47,14 @@
 	<div id="header">
 		<div id="masthead">
 			<div id="branding" role="banner">
-				<h1 id="site-title">
-					<span>
+				<div id="site-title">
+					<h1 id="site-title-link">
 						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					</span>
-				</h1>
-				<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
-				<div id="searchbox">search goes here</div>
+					</h1>
+					<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
+				</div>
+				<div id="searchbox"><?php get_search_form(); ?></div>
+				
 
 			</div><!-- #branding -->
 
