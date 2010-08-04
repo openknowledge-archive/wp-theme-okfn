@@ -10,11 +10,6 @@ Version:        0.1.0
 @import url("../twentyten/style.css");
 /**  darkgreen #5A7A61 // lightgreen #88AF4A // blue #448995  **/
 
-/** TESTING **/
-
-/** </TESTING> **/
-
-
 html, body, div, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -34,6 +29,15 @@ h1, h2, h3, h4, h5, h6, #content .entry-title{
 	line-height:1.3em;
 }
 
+#content h4{
+	color:#88AF4A;
+	line-height:1em;
+	margin:0 0 5px;
+}
+
+.entry-content{
+	margin-bottom:20px;
+}
 
 /** general links & co **/
 
@@ -98,19 +102,19 @@ h3#site-description {
 	clear:none;
 	margin:0;
 	float:none;
-	width:360px;
+	width:400px;
 	font-size:.45em;
 }
 
 h1#site-title-link{
-	width:360px;
+	width:400px;
 	font-size:.75em;
 }
 
 #site-title {
 float:left;
 margin:0;
-width:360px;
+width:400px;
 padding:5px 0 0 90px;
 }
 
@@ -345,4 +349,40 @@ div#bubble_events{
 div#bubble_news{
 	top:213px;
 	left:6px;
+}
+
+div.frontpage_listing{
+	display:none; 
+}
+
+.frontpage_listing div.odd, .frontpage_listing div.even{
+	float:left;
+	width:180px;
+	height:110px;
+	margin-bottom:10px;
+	padding:0 10px 0 110px;
+	background:transparent url('images/icon_home.png') no-repeat top left;
+}
+
+.frontpage_listing div.odd{
+	float:left;
+}
+
+.frontpage_listing div.even{
+	float:right;
+}
+
+.frontpage_listing p{
+	margin:0;
+	line-height:1em;
+	font-size:.8em;
+}
+
+.frontpage_listing h4{
+	margin-bottom:5px;
+	font-size:.8em;
+}
+
+.frontpage_listing a, .frontpage_listing a:visited{
+	color:#88AF4A;
 }
