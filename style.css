@@ -75,7 +75,6 @@ ol, ul {
 
 #footer-widget-area a:hover{
 	color:#222;
-	text-decoration:none;
 }
 
 /* =Header
@@ -302,4 +301,48 @@ li.aktt_more_updates{
 .wpng-widget-date-title {
 	margin:6px 0;
 	font-size:1.2em;
+}
+
+/** Homepage Links Bubble Image **/
+#frontimage{
+	position:relative;
+}
+
+div.bubble_links{
+	position:absolute;
+	width:120px;
+	height:30px;
+	text-align:center;
+	display:block;
+}
+
+div.bubble_links a{
+	color:#fff;
+	text-transform:uppercase;
+}
+div.bubble_links a:hover{
+	font-size:1.2em;
+	text-decoration:none;
+}
+
+div#bubble_projects{
+	top:89px;
+	left:117px;
+}
+
+div#bubble_community{
+	top:87px;
+	left:412px;
+}
+div#bubble_about{
+	top:216px;
+	left:518px;
+}
+div#bubble_events{
+	top:252px;
+	left:260px;
+}
+div#bubble_news{
+	top:213px;
+	left:6px;
 }
