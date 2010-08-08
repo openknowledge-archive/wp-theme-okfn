@@ -1,8 +1,8 @@
 /** rounded corners **/
 jQuery(document).ready(function() {
-	jQuery('#header').corner({
-	  tl: { radius: 0 },
-	  tr: { radius: 0 },
+	jQuery('#access').corner({
+	  tl: { radius: 10 },
+	  tr: { radius: 10 },
 	  bl: { radius: 10 },
 	  br: { radius: 10 }});
 	jQuery('#primary li.widget-container').corner({

@@ -8,7 +8,7 @@ Version:        0.1.0
 */
 
 @import url("../twentyten/style.css");
-/**  darkgreen #5A7A61 // lightgreen #88AF4A // blue #448995  **/
+/**  darkgreen #5A7A61 // lightgreen #88AF4A // blue #448995 // blue #6E99A4  **/
 
 html, body, div, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,7 +21,9 @@ table, caption, tbody, tfoot, thead, tr, th, td, h3#comments-title, h3#reply-tit
 	font-family: "Lucida Grande","Lucida Sans","Lucida Sans Unicode","Lucida","Bitstream Vera Sans",Verdana,sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, #content .entry-title {
+h1, h2, h3, h4, h5, h6,
+#content .entry-title
+{
 	font-family: Verdana, Verdana, Geneva, sans-serif;
 	color: #448995;
 	font-weight: bold;
@@ -60,67 +62,52 @@ ol, ul {
 
 #wrapper {
 	background-color: #fff;
-	margin-top: 0;
 }
 
-
-
-/* Structure the footer area */
-
-
-#colophon {
-	border-top: 2px solid #222;
-}
-
-#footer-widget-area a {
-	text-decoration: underline;
-	color: #666;
-}
-
-#footer-widget-area a:hover {
-	color: #222;
-}
 
 /* =Header
 -------------------------------------------------------------- */
 
+#header {
+  padding-top: 10px;
+}
+
+#branding {
+  height: 90px;
+}
+
+/* hide twenty-ten image */
 #branding img {
   display: none;
 }
 
-#header {
-	padding: 10px 0 0;
-	/* background: #6E99A4 url('images/okf_logo.png') no-repeat top left; */
-	background: #6E99A4 url('images/okf_logo.png') no-repeat top left;
-	height: 80px;
+#branding img.logo {
+  display: block;
+	border: none;
+  float: left;
+  height: 80px;
+}
+
+#site-title {
+  margin: 0 0 0 90px;
+  padding-top: 12px;
+  float: none;
+  clear: none;
 }
 
 #site-title a {
-  color: #fff;
+  color: #6E99A4;
   font-weight: bold;
   text-decoration: none;
 }
 
-h3#site-description {
-	color: #fff;
-	font-style: normal;
+#site-description {
+  color: #6E99A4;
 	clear: none;
 	margin: 0;
 	float: none;
-	width: 400px;
-	font-size: .45em;
-}
-
-h1#site-title-link {
-	width: 400px;
-	font-size: .75em;
-}
-
-#site-title {
-  float: left;
-  margin: 0;
-  width: 400px;
-  padding: 5px 0 0 90px;
+  margin-left: 90px;
+  clear: none;
 }
 
 #searchbox {
@@ -134,6 +121,50 @@ h1#site-title-link {
 
 #searchbox  input {
 	background-color: #fff;
+}
+
+
+/* =Menu
+-------------------------------------------------------------- 
+*/
+
+#access {
+  background: #6E99A4;
+}
+
+#access a {
+  color: #d2d2d2;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a
+{
+	color: #aaa;
+	background: #fff;
+}
+
+#access ul li.current_page_item:hover > a,
+#access ul li.current-menu-ancestor:hover > a,
+#access ul li.current-menu-item:hover > a,
+#access ul li.current-menu-parent:hover > a {
+	color: #aaa;
+}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#colophon {
+	border-top: 2px solid #222;
+}
+
+#footer-widget-area a {
+	text-decoration: underline;
+	color: #666;
+}
+
+#footer-widget-area a:hover {
+	color: #222;
 }
 
 
@@ -164,68 +195,6 @@ p {
 }
 ul {
 	margin: 0 0 18px 18px;
-}
-
-/* =Menu
--------------------------------------------------------------- 
-*/
-#access .menu-header ul, div.menu ul {
-  float: right;
-  list-style: none outside none;
-  margin: 0;
-}
-
-#access .menu-header,
-.menu {
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-#access {
-	background: transparent;
-}
-
-#access a {
-	color: #fff;
-	line-height: 28px;
-}
-
-#access li:hover > a, #access ul ul :hover > a {
-  background: none repeat scroll 0 0 #fff;
-  color: #448995;
-}
-
-#access ul li.current_page_item > a,
-#access ul li.current-menu-ancestor > a,
-#access ul li.current-menu-item > a,
-#access ul li.current-menu-parent > a
-{
-  color: #448995;
-  background-color: #fff;
-}
-
-
-#access ul ul {
-  top: 28px;
-}
-
-#access ul ul a {
-  background: none repeat scroll 0 0 #fff;
-  padding: 5px 10px;
-  width: 180px;
-  color: #448995;
-  text-transform: none;
-}
-
-#access ul ul a:hover {
-	color: #fff;
-	background-color: #448995;
-}
-
-html #access ul ul li.current_page_item a {
-	background-color: #448995;
-	color: #fff;
 }
 
 
