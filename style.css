@@ -84,6 +84,10 @@ ol, ul {
 /* =Header
 -------------------------------------------------------------- */
 
+#branding img {
+  display: none;
+}
+
 #header{
 	padding:10px 0 0;
 	/* background: #6E99A4 url('images/okf_logo.png') no-repeat top left; */

@@ -24,12 +24,15 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
 	 */
 	if ( is_singular() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
+
+  wp_enqueue_script('jquery');
 
 	/* Always have wp_head() just before the closing </head>
 	 * tag of your theme, or you will break many plugins, which
@@ -38,6 +41,8 @@
 	 */
 	wp_head();
 ?>
+<script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/jquery.curvycorners.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/js_custom.js'></script>
 </head>
 
 <body <?php body_class(); ?>>
