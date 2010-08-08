@@ -2,6 +2,11 @@ $j=jQuery.noConflict();
 
 /** rounded corners **/
 $j(document).ready(function() {
+		$j('#header').corner({
+		  tl: { radius: 0 },
+		  tr: { radius: 0 },
+		  bl: { radius: 10 },
+		  br: { radius: 10 }});
 		$j('#primary li.widget-container').corner({
 		  tl: { radius: 10 },
 		  tr: { radius: 10 },
