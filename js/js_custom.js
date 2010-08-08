@@ -10,11 +10,11 @@ jQuery(document).ready(function() {
 	  tr: { radius: 10 },
 	  bl: { radius: 10 },
 	  br: { radius: 10 }});
-	jQuery('.aktt_tweets li').corner({
-	  tl: { radius: 10 },
-	  tr: { radius: 10 },
-	  bl: { radius: 10 },
-	  br: { radius: 10 }});
+	jQuery('.widget-container > *').corner({
+	  tl: { radius: 8 },
+	  tr: { radius: 8 },
+	  bl: { radius: 8 },
+	  br: { radius: 8 }});
 	jQuery('#wpng-cal-widget-events').corner({
 	  tl: { radius: 10 },
 	  tr: { radius: 10 },

@@ -167,6 +167,11 @@ ol, ul {
 	color: #222;
 }
 
+#footer .widget-container ul {
+  margin-left: 0;
+  margin-top: 8px;
+}
+
 
 /** main
 -----------------------------------------------**/
@@ -204,21 +209,14 @@ ul {
 	color: #88AF4A;
 }
 
-.widget-area li {
-	list-style-type: none;
-}
-
-#main .widget-area ul {
-	margin: 0;
-	padding: 0;
-}
-
 #main .widget-area ul ul,
 .widget-area ul ul
 {
-	list-style: square outside none;
-	margin-left: 0;
+	list-style: none;
 }
+
+/** =sidebar
+------------------------------------------------------**/
 
 #primary a,
 #primary,
@@ -228,39 +226,37 @@ ul {
 	font-weight: bold;
 }
 
-
 #primary li.widget-container,
 #secondary li.widget-container
 {
 	margin-bottom: 20px;
 }
 
-#primary li.widget-container {
+#main li.widget-container {
 	background-color: #88AF4A;
 	padding-bottom: 5px;
 }
 
-/** Tag-Cloud **/
-
-.widget_tag_cloud a {
-	line-height: 1.1em;
+#main .widget-container > *,
+#main .widget-area ul ul
+{
+	margin: 2px 5px;
+	padding: 5px;
+	font-size: 1em;
+	background-color: #fff;
+  padding: 10px;
 }
 
-/**  Twitter **/
 #primary h3.widget-title,
 #primary h3.widgettitle
 {
 	padding: 10px;
 	color: #fff;
+  background: transparent;
 }
 
-.aktt_tweets li {
-	margin: 2px 5px;
-	padding: 5px;
-	font-size: 1em;
-	background-color: #fff;
-}
 
+/**  Twitter **/
 li.aktt_more_updates a {
 	color: #fff;
 }
@@ -269,6 +265,13 @@ li.aktt_more_updates {
 	padding: 10px;
 	margin: 0;
 	background-color: #88AF4A;
+}
+
+
+/** Tag-Cloud **/
+
+.widget_tag_cloud a {
+	line-height: 1.1em;
 }
 
 /** events **/
@@ -292,7 +295,10 @@ li.aktt_more_updates {
 	font-size: 1.2em;
 }
 
-/** Homepage Links Bubble Image **/
+
+/** =Homepage
+------------------------------------------------------**/
+
 #frontimage {
 	position: relative;
 }
