@@ -28,10 +28,11 @@ jQuery(document).ready(function() {
 	jQuery('#loopedSlider a.previous').corner();
 	jQuery('#loopedSlider a.next').corner();
 		
-	/** homepage animation **/	
+	/** homepage animation 
 	jQuery('#projects_front').css('display', 'block');
 	jQuery('#bubble_projects a').css('font-size', '1.2em');
 	
+
 	function hideall() {
 		jQuery('.frontpage_listing').css('display','none');
 		jQuery('div.bubble_links a').css('font-size', '1em');
@@ -81,4 +82,7 @@ jQuery(document).ready(function() {
 		}, function() {
 			jQuery(this).css('font-weight', 'normal');
 	});
+
+**/
+
 });

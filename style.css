@@ -59,6 +59,9 @@ ol, ul {
 
 /* =Structure
 -------------------------------------------------------------- */
+#site-generator, #site-info{
+	display:none;
+}
 
 #wrapper {
 	background-color: #fff;
@@ -108,6 +111,7 @@ ol, ul {
 	float: none;
   margin-left: 90px;
   clear: none;
+width:400px;
 }
 
 #searchbox {
@@ -341,11 +345,11 @@ div#bubble_news {
 	top: 213px;
 	left: 6px;
 }
-
+/**
 div.frontpage_listing {
 	display: none; 
 }
-
+**/
 .frontpage_listing div.odd,
 .frontpage_listing div.even
 {
