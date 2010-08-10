@@ -43,6 +43,16 @@
 ?>
 <script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/jquery.curvycorners.min.js'></script>
 <script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/js_custom.js'></script>
+
+<?php 
+/** split css-files for developing **/ 
+?>
+
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/okfn.css" media="all" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/buddypress.css" media="all" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/home.css" media="all" />
+
 </head>
 
 <body <?php body_class(); ?>>
