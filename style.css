@@ -131,19 +131,13 @@ ol, ul {
 /* =Menu
 -------------------------------------------------------------- 
 */
-#access .menu-header,
-.menu {
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
 
 #access {
   background: #6E99A4;
 }
 
 #access a {
-  color: #fff;
+  color: #d2d2d2;
 }
 
 #access ul ul a {
@@ -157,33 +151,16 @@ ol, ul {
 #access li:hover > a,
 #access ul ul :hover > a
 {
-	color: #6E99A4;
+	color: #aaa;
 	background: #fff;
 }
 
-#access ul ul a:hover {
-	color: #fff;
-	background-color: #6E99A4;
-}
-
-#access ul li.current_page_item > a,
-#access ul li.current-menu-ancestor > a,
-#access ul li.current-menu-item > a,
-#access ul li.current-menu-parent > a{
-  color: #6E99A4;
-  background-color: #fff;
-}
 
 #access ul li.current_page_item:hover > a,
 #access ul li.current-menu-ancestor:hover > a,
 #access ul li.current-menu-item:hover > a,
 #access ul li.current-menu-parent:hover > a {
 	color: #aaa;
-}
-
-html #access ul ul li.current_page_item a {
-	background-color: #6E99A4;
-	color: #fff;
 }
 
 

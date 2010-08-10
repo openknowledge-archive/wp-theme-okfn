@@ -23,6 +23,7 @@
 #secondary a
 {
 	font-weight: bold;
+	font-size:1em;
 }
 
 #primary li.widget-container,
@@ -39,19 +40,21 @@
 #main .widget-container > *,
 #main .widget-area ul ul
 {
-	margin: 2px 5px;
-	padding: 5px;
-	font-size: 1em;
-	background-color: #fff;
-  padding: 10px;
+  background-color: #fff;
+  margin:0 5px;
 }
 
-#primary h3.widget-title,
-#primary h3.widgettitle
+#main .widget-area ul ul, #secondary .widget-title, #primary .widget-title{
+    padding: 10px;
+	margin: 2px 5px;
+}
+
+
+#primary h3.widgettitle, #secondary .widget-title, #primary .widget-title
 {
-	padding: 10px;
+	padding: 10px 5px;
 	color: #fff;
-  background: transparent;
+    background: transparent;
 }
 
 

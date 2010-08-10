@@ -10,6 +10,11 @@ jQuery(document).ready(function() {
 	  tr: { radius: 10 },
 	  bl: { radius: 10 },
 	  br: { radius: 10 }});
+	jQuery('#secondary li.widget-container').corner({
+	  tl: { radius: 10 },
+	  tr: { radius: 10 },
+	  bl: { radius: 10 },
+	  br: { radius: 10 }});	
 	jQuery('.widget-container > *').corner({
 	  tl: { radius: 8 },
 	  tr: { radius: 8 },
