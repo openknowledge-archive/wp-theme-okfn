@@ -1,4 +1,5 @@
 <?php
+
 function blog_favicon() {
 	echo '<link rel="Shortcut Icon" type="image/x-icon" href="http://okfn.org/images/favicon.ico" />';
 }

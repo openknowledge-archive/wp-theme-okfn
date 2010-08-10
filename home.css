@@ -54,7 +54,6 @@ div.frontpage_listing {
 .frontpage_listing div.odd,
 .frontpage_listing div.even
 {
-	float: left;
 	width: 180px;
 	height: 110px;
 	margin-bottom: 10px;
