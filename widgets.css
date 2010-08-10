@@ -22,7 +22,6 @@
 #secondary,
 #secondary a
 {
-	font-weight: bold;
 	font-size:1em;
 }
 
@@ -37,34 +36,52 @@
 	padding-bottom: 5px;
 }
 
-#main .widget-container > *,
-#main .widget-area ul ul
+#main .widget-area ul ul,
+#main .widget-container > *
 {
   background-color: #fff;
   margin:0 5px;
+  padding:5px;
 }
 
-#main .widget-area ul ul, #secondary .widget-title, #primary .widget-title{
-    padding: 10px;
-	margin: 2px 5px;
-}
 
 
 #primary h3.widgettitle, #secondary .widget-title, #primary .widget-title
 {
-	padding: 10px 5px;
+	padding-top:10px;
+	margin:5px;
 	color: #fff;
     background: transparent;
 }
 
 
 /**  Twitter **/
+
+
+.aktt_tweets, .aktt_tweets ul{
+	margin:0 !important;
+	padding:0 !important;
+	background:transparent !important;
+}
+
+.aktt_tweets li{
+	margin:5px;
+	padding:5px;
+	background-color:#fff;
+	
+}
+
 li.aktt_more_updates a {
 	color: #fff;
 }
 
+li.aktt_more_updates a:hover {
+	text-decoration:underline;
+	color:#fff;
+}
+
 li.aktt_more_updates {
-	padding: 10px;
+	padding: 5px 10px;
 	margin: 0;
 	background-color: #88AF4A;
 }
@@ -83,10 +100,13 @@ li.aktt_more_updates {
 	background-color: #fff;
 }
 #wpng-cal-widget-events li {
-    margin-bottom: .5em;
+    margin-bottom: .2em;
 }
 
 .wpng-widget-date-title {
-	margin: 6px 0;
-	font-size: 1.2em;
+	font-size: 1.1em;
+}
+
+#wpng-cal-load-widget + div{
+	display:none;
 }
