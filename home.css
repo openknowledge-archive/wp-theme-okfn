@@ -1,0 +1,86 @@
+/*
+*
+* Description: CSS for Homepage (homepage.php & "What are we working on now?" in the Backend);
+*
+*/
+
+#frontimage {
+	position: relative;
+}
+
+div.bubble_links {
+	position: absolute;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	display: block;
+}
+
+div.bubble_links a {
+	color: #fff;
+	text-transform: uppercase;
+}
+div.bubble_links a:hover {
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+div#bubble_projects {
+	top: 89px;
+	left: 117px;
+}
+
+div#bubble_community {
+	top: 87px;
+	left: 412px;
+}
+div#bubble_about {
+	top: 216px;
+	left: 518px;
+}
+div#bubble_events {
+	top: 252px;
+	left: 260px;
+}
+div#bubble_news {
+	top: 213px;
+	left: 6px;
+}
+/**
+div.frontpage_listing {
+	display: none; 
+}
+**/
+.frontpage_listing div.odd,
+.frontpage_listing div.even
+{
+	float: left;
+	width: 180px;
+	height: 110px;
+	margin-bottom: 10px;
+	padding: 0 10px 0 110px;
+	background: transparent url('images/icon_home.png') no-repeat top left;
+}
+
+.frontpage_listing div.odd {
+	float: left;
+}
+
+.frontpage_listing div.even {
+	float: right;
+}
+
+.frontpage_listing p {
+	margin: 0;
+	line-height: 1em;
+	font-size: .8em;
+}
+
+.frontpage_listing h4 {
+	margin-bottom: 5px;
+	font-size: .8em;
+}
+
+.frontpage_listing a, .frontpage_listing a:visited {
+	color: #88AF4A;
+}
