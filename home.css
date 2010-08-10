@@ -58,7 +58,7 @@ div.frontpage_listing {
 	height: 110px;
 	margin-bottom: 10px;
 	padding: 0 10px 0 110px;
-	background: transparent url('images/icon_home.png') no-repeat top left;
+	background: transparent url('http://staging.okfn.org/wp-content/themes/okfn/images/okf_logo.png') no-repeat top left;
 }
 
 .frontpage_listing div.odd {
