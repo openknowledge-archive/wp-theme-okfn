@@ -172,7 +172,10 @@ ol, ul {
 
 #footer .widget-container ul {
   margin-left: 0;
-  margin-top: 8px;
+}
+
+#footer h3.widget-title{
+  margin-bottom: 5px;
 }
 
 
@@ -202,6 +205,8 @@ p {
 	font-size: 15px;
 	color:#666;
 }
+
 ul {
 	margin: 0 0 18px 18px;
 }
+
