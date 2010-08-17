@@ -3,3 +3,19 @@
 * Description: CSS for Buddypress Plugin;
 *
 */
+
+#content a:link, #content a:active, #content a:hover, #content a:active, #content a:visited {
+	color: #88AF4A;
+}
+
+
+/** BUDDYPRESS BLOGS **/
+
+ul.item-list div.item {
+float:left;
+}
+
+div.clear{
+	clear:left;
+}
+
