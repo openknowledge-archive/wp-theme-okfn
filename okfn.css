@@ -11,7 +11,7 @@ table, caption, tbody, tfoot, thead, tr, th, td, h3#comments-title, h3#reply-tit
 	font-family: "Lucida Grande","Lucida Sans","Lucida Sans Unicode","Lucida","Bitstream Vera Sans",Verdana,sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6,#content h2, #content h3,
 #content .entry-title
 {
 	font-family: Verdana, Verdana, Geneva, sans-serif;
