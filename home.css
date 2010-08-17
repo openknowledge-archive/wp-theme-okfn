@@ -16,7 +16,7 @@ div.bubble_links {
 	display: block;
 }
 
-div.bubble_links a {
+div.bubble_links a, div.bubble_links a:visited{
 	color: #fff;
 	text-transform: uppercase;
 }

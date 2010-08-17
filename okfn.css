@@ -42,6 +42,9 @@ a:hover {
 	text-decoration: underline;
 }
 
+.entry-content a, .entry-content a:visited{
+	color: #88AF4A;
+}
 
 /* =Structure
 -------------------------------------------------------------- */
