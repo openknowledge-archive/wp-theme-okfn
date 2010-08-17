@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
 	  tr: { radius: 8 },
 	  bl: { radius: 8 },
 	  br: { radius: 8 }});
-	jQuery('.aktt_tweets li').corner({
+	jQuery('div#primary ul ul li').corner({
 	  tl: { radius: 10 },
 	  tr: { radius: 10 },
 	  bl: { radius: 10 },

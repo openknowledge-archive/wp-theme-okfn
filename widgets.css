@@ -37,15 +37,38 @@
 	padding-bottom: 5px;
 }
 
-#main .widget-area ul ul,
-#main .widget-container > *
+#main .widget-area ul ul
+
 {
   background-color: #fff;
-  margin:0 5px;
-  padding:5px;
+
+
+}
+
+#main .widget-container > *{
+   background-color: #fff;
+	padding:5px;
+	margin: 0 5px;
 }
 
 
+#primary h3.widget-title a:link, #primary h3.widget-title a:visited, #primary h3.widget-title a:hover{
+	color:#fff;
+}
+
+div#primary ul ul li{
+	background-color:#fff;
+	border: 1px solid red;
+	margin:5px;
+	padding:5px;
+	background-color:#fff;	
+}
+
+div#primary ul ul{
+	background-color:#88AF4A !important;
+	margin:0 !important;
+	padding:0 !important;
+}
 
 #primary h3.widgettitle, #secondary .widget-title, #primary .widget-title
 {
@@ -58,22 +81,13 @@
 
 /**  Twitter **/
 
-
-.aktt_tweets, .aktt_tweets ul{
-	margin:0 !important;
+div.aktt_tweets{
 	padding:0 !important;
-	background:transparent !important;
-}
-
-.aktt_tweets li{
-	margin:5px;
-	padding:5px;
-	background-color:#fff;
-	
+		margin:0 !important;
 }
 
 li.aktt_more_updates a {
-	color: #fff;
+	color: #fff !important;
 }
 
 li.aktt_more_updates a:hover {
@@ -84,7 +98,7 @@ li.aktt_more_updates a:hover {
 li.aktt_more_updates {
 	padding: 5px 10px;
 	margin: 0;
-	background-color: #88AF4A;
+	background-color: #88AF4A !important;
 }
 
 
@@ -110,4 +124,11 @@ li.aktt_more_updates {
 
 #wpng-cal-load-widget + div{
 	display:none;
+}
+
+
+/**  RSS-Widget  **/
+
+.widget_rss a.rsswidget, .widget_rss a.rsswidget:hover {
+	color:#88AF4A;
 }
