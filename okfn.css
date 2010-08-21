@@ -1,20 +1,8 @@
 /**  darkgreen #5A7A61 // lightgreen #88AF4A // blue #6E99A4  // [[blue #448995]] **/
 
-html, body, div, span, applet, object, iframe, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, h3#comments-title, h3#reply-title, #access .menu, #access div.menu ul, #cancel-comment-reply-link, .form-allowed-tags, #site-info, #site-title, #wp-calendar, .comment-meta, .comment-body tr th, .comment-body thead th, .entry-content label, .entry-content tr th, .entry-content thead th, .entry-meta, .entry-title, .entry-utility, #respond label, .navigation, .page-title, .pingback p, .reply, .widget-title, .wp-caption-text, input[type="submit"] {
-	font-family: "Lucida Grande","Lucida Sans","Lucida Sans Unicode","Lucida","Bitstream Vera Sans",Verdana,sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6,#content h2, #content h3,
 #content .entry-title
 {
-	font-family: Verdana, Verdana, Geneva, sans-serif;
 	color: #6E99A4;
 	font-weight: bold;
 	clear: both;
