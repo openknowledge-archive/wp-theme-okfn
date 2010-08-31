@@ -131,3 +131,26 @@ li.aktt_more_updates {
 .widget_rss a.rsswidget, .widget_rss a.rsswidget:hover {
 	color:#88AF4A;
 }
+
+/** Tweet Blender Widget **/
+div.tb_footer{
+	margin-bottom:25px;
+	margin-top:5px;
+}
+
+form#tweetblender-3-f{
+	display:none;
+}
+
+a.tb_photo img{
+	border:none;
+}
+
+div.tb_tweet{
+	border-top:none;
+	border-bottom:1px dotted #cccccc;
+}
+
+div.tb_tweetlist {
+border-bottom:none;
+}
