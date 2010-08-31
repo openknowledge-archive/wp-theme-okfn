@@ -88,7 +88,11 @@ a:hover {
 	float: none;
   	margin-left: 90px;
   	clear: none;
-	width:400px;
+	width:700px;
+	font-style:normal;
+	font-weight:bold;
+	font-size:1.2em;
+	font-family:"Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
 }
 
 #searchbox {
@@ -198,9 +202,9 @@ ul {
 	margin: 0 0 18px 18px;
 }
 
+#content, #content input, #content textarea {
+color:#666;
+}
+
 /** main / pages
 -----------------------------------------------**/
-
-.page h1.entry-title {
-  display: none;
-}
