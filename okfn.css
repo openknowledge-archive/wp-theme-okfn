@@ -144,6 +144,9 @@ a:hover {
 	color: #aaa;
 }
 
+#access ul li li.current_page_item > a, #access ul li li.current-menu-ancestor > a, #access ul li li.current-menu-item > a, #access ul li li.current-menu-parent > a {
+color:#d2d2d2;
+}
 
 /* =Footer
 -------------------------------------------------------------- */
