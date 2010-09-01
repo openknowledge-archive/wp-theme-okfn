@@ -154,3 +154,15 @@ div.tb_tweet{
 div.tb_tweetlist {
 border-bottom:none;
 }
+
+/** Google Docs Css **/
+
+#ss-form .entry-content label {
+color:#666;
+font-size:1em;
+}
+
+#ss-form{
+border:1px dotted #666;
+padding:10px;
+}
