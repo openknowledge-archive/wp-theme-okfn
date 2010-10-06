@@ -1,5 +1,5 @@
 <?php
-include( TEMPLATEPATH . 'bp/bp-functions.php' );
+include( TEMPLATEPATH . '/../okfn/bp/bp-functions.php' );
 /*scavenged from the bp-template-pack plugin */
 
 function bp_tpack_init() {
