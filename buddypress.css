@@ -404,10 +404,6 @@ div#item-header div#item-header-avatar{
 	padding-right:10px;
 }
 
-ol, ul {
-	list-style:none outside none;
-}
-
 ul#groups-list li {
 	padding:0 !important;
 }
