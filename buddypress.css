@@ -486,6 +486,19 @@ span.padding{
 	padding-right:1px;
 	display:inline !important;
 }
+
+ul.item-list div.action{
+	border:0;
+	padding:0;
+}
+
+div.meta{
+	font-size:0.8em;
+}
+
+div.submit{
+	margin-top:10px;
+}
 /** BUDDYPRESS BLOGS **/
 
 
