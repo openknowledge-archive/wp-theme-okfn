@@ -1,5 +1,4 @@
 <?php
-
 /* Load the default BuddyPress AJAX functions */
 require_once( BP_PLUGIN_DIR . '/bp-themes/bp-default/_inc/ajax.php' );
 
