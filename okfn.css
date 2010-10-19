@@ -26,8 +26,11 @@ h1, h2, h3, h4, h5, h6,
 
 /** general links & co **/
 
-a{
-	color: #88AF4A;
+a:link, a:visited, a:active, a, a:hover{
+	color: #88AF4A;	
+}
+
+a:link, a:visited, a:active, a{
 	text-decoration: none;	
 }
 
