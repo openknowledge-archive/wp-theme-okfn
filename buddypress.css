@@ -512,6 +512,27 @@ div.meta{
 div.submit{
 	margin-top:10px;
 }
+
+/** NOTIFICATION SETTINGS **/
+
+table.notification-settings th{
+		padding:9px 0 !important;
+		text-align:left !important;
+}
+
+table.notification-settings th.icon{
+	width:2%;
+}
+
+table.notification-settings th.title{
+	width:82%;
+}
+
+table.notification-settings th.no, table.notification-settings th.yes{
+	width:8%;
+	text-align:center;
+}
+
 /** BUDDYPRESS BLOGS **/
 
 
