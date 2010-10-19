@@ -333,9 +333,17 @@ a.button, input[type="submit"], input[type="button"], input[type="reset"], ul.bu
 	vertical-align:bottom;
 }
 
+a.button{
+	padding:0 6px 3px;
+}
+
 ul.acfb-holder li.friend-tab {
 	background:none repeat scroll 0 0 #F1F1F1 !important;
 	border:1px solid #DDDDDD !important;
+}
+
+div.updated{
+	padding-top:10px;
 }
 
 /**  CREATE GROUP TABS **/
