@@ -9,6 +9,10 @@ div.clear{
 	clear:both;
 }
 
+ul{
+	list-style:none outside none;
+}
+
 
 /**  Head Profile Page **/
 
@@ -366,6 +370,12 @@ form.standard-form div.checkbox label, form.standard-form div.radio label {
 }
 
 /**  Group Pages **/
+
+ul#member-list span.activity {
+right:15px;
+position: absolute;
+top:30px;
+}
 
 div#item-header div#item-actions {
 	float:right;
