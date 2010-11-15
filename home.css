@@ -4,6 +4,10 @@
 *
 */
 
+body.home-page h2.entry-title {
+  display: none;
+}
+
 #frontimage {
 	position: relative;
 }
