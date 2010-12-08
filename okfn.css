@@ -185,7 +185,7 @@ color:#d2d2d2;
 -----------------------------------------------**/
 
 #main {
-	padding: 30px 0 0;
+	padding: 10px 0 0;
 }
 
 body,
@@ -205,7 +205,6 @@ hr {
 
 p {
 	margin-bottom: 18px;
-	font-size: 15px;
 	color:#666;
 }
 
