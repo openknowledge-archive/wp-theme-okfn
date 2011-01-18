@@ -11,12 +11,16 @@
 
 			<?php if ( 'request-details' == bp_get_current_signup_step() ) : ?>
 
-				<h2><?php _e( 'Create an Account', 'buddypress' ) ?></h2>
+				<h2><?php _e( 'Sign up as a Foundation Community Member', 'buddypress' ) ?></h2>
 
 				<?php do_action( 'template_notices' ) ?>
 
-				<p><?php _e( 'Registering for this site is easy, just fill in the fields below and we\'ll get a new account set up for you in no time.', 'buddypress' ) ?></p>
-
+         <p><?php _e( 'Community Membership is a way of &quot;opting in&quot; and publicly acknowledging a connnection with the Open Knowledge Foundation and support for its activities. It entails no specific obligations (nor confers specific rights!) and anyone may join', 'buddypress') ?>.
+         </p>
+         <p>
+         <a href="/governance/#community-membership"><?php _e( 'Read more about Community Membership &raquo;', 'buddypress' ) ?></a>
+         </p> 
+				 
 				<?php do_action( 'bp_before_account_details_fields' ) ?>
 
 				<div class="register-section" id="basic-details-section">
