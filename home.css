@@ -83,10 +83,6 @@ div.frontpage_listing {
 	font-size: .8em;
 }
 
-.frontpage_listing a, .frontpage_listing a:visited {
-	color: #88AF4A;
-}
-
 div.project-summary {                                         
   /* at least as high as largest image */                     
   min-height: 100px;                                          

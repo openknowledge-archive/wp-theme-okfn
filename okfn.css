@@ -1,4 +1,8 @@
-/**  darkgreen #5A7A61 // lightgreen #88AF4A // blue #6E99A4  // [[blue #448995]] **/
+/**
+  darkgreen #5A7A61 // lightgreen #88AF4A // blue #6E99A4  // [[blue #448995]]
+
+  turquoise (okf new logo): #3b8e7f
+**/
 
 h1, h2, h3, h4, h5, h6,
 #content h1, #content h2, #content h3,
@@ -11,7 +15,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 #content h4 {
-	color: #88AF4A;
+	color: #6E99A4;
 	line-height: 1em;
 	margin: 0 0 5px;
 }
@@ -27,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 /** general links & co **/
 
 a:link, a:visited, a:active, a, a:hover{
-	color: #88AF4A;	
+	color: #6E99A4;	
 }
 
 a:link, a:visited, a:active, a{
@@ -39,7 +43,7 @@ a:hover {
 }
 
 .entry-content a, .entry-content a:visited{
-	color: #88AF4A;
+	color: #6E99A4;
 }
 
 /* =Structure

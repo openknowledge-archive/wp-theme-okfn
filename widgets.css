@@ -5,7 +5,7 @@
 */
 
 .widget-area a, .widget-area a:active, .widget-area a:hover {
-	color: #88AF4A;
+	color: #6E99A4;
 }
 
 #main .widget-area ul ul,
@@ -33,7 +33,7 @@
 }
 
 #main li.widget-container {
-	background-color: #88AF4A;
+	background-color: #6E99A4;
 	padding-bottom: 5px;
 }
 
@@ -64,7 +64,7 @@ div#primary ul ul li{
 }
 
 div#primary ul ul{
-	background-color:#88AF4A !important;
+	background-color:#6E99A4 !important;
 	margin:0 !important;
 	padding:0 !important;
 }
@@ -97,7 +97,7 @@ li.aktt_more_updates a:hover {
 li.aktt_more_updates {
 	padding: 5px 10px;
 	margin: 0;
-	background-color: #88AF4A !important;
+	background-color: #6E99A4 !important;
 }
 
 
@@ -129,7 +129,7 @@ li.aktt_more_updates {
 /**  RSS-Widget  **/
 
 .widget_rss a.rsswidget, .widget_rss a.rsswidget:hover {
-	color:#88AF4A;
+	color:#6E99A4;
 }
 
 /** Tweet Blender Widget **/
