@@ -1,5 +1,5 @@
 /* Load the default admin bar styles */
-@import url( ../../../plugins/buddypress/bp-themes/bp-default/_inc/css/adminbar.css );
+@import url(../../plugins/buddypress/bp-themes/bp-default/_inc/css/adminbar.css);
 
 /**
  * The following are basic CSS styles to give BuddyPress pages their absolute basic formatting.
