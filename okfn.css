@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6,
 {
 	color: #333;
 	font-weight: bold;
-	clear: both;
+	clear: none;
 	line-height: 1.3em;
 }
 
@@ -192,12 +192,12 @@ color:#d2d2d2;
 	padding: 20px 0 0;
 }
 
-body,
-input,
-textarea {
+#content,
+#content input,
+#content textarea {
 	color: #666;
-	font-size: 12px;
-	line-height: 1.5em;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 hr {
@@ -213,12 +213,24 @@ p {
 }
 
 ul {
-	margin: 0 0 18px 18px;
+	margin: 0 0 18px 0;
 }
 
 #content, #content input, #content textarea {
 color:#666;
 }
 
+
 /** main / pages
 -----------------------------------------------**/
+
+/**********************************************
+  Forms
+ **********************************************/
+
+input[type="text"], textarea {
+  -webkit-box-shadow: none;
+  background: transparent;
+  border: none;
+}
+

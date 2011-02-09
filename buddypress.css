@@ -1,3 +1,6 @@
+/* Load the default admin bar styles */
+@import url(../../plugins/buddypress/bp-themes/bp-default/_inc/css/adminbar.css);
+
 /* > Item Headers (Profiles, Groups)
 -------------------------------------------------------------- */
 
@@ -69,6 +72,7 @@ div#item-header {
 		}
 
 		div#item-header ul {
+      list-style: none;
 			overflow: hidden;
 			margin-bottom: 15px;
 		}
@@ -102,6 +106,7 @@ div#item-header {
 
 ul.item-list {
 	width: 100%;
+  list-style: none;
 }
 	ul.item-list li {
 		position: relative;
@@ -111,6 +116,7 @@ ul.item-list {
 		ul.single-line li { border: none; }
 		body.activity-permalink ul.item-list li { padding-top: 0; }
 
+		#content ul.item-list li img.avatar,
 		ul.item-list li img.avatar {
 			float: left;
 			margin: 0 10px 10px 0;
@@ -156,7 +162,7 @@ ul.item-list {
 -------------------------------------------------------------- */
 
 div.item-list-tabs {
-	clear: left;
+	clear: both;
 	overflow: hidden;
 	margin: 25px -19px 20px -19px;
 	background: #eaeaea;
@@ -166,6 +172,7 @@ div.item-list-tabs {
 	}
 
 	div.item-list-tabs ul {
+    list-style: none;
 		width: 100%;
 	}
 		div.item-list-tabs ul li {
