@@ -1459,15 +1459,3 @@ ol.commentlist li {
 		border-bottom: none;
 	}
 
-/* > Footer
--------------------------------------------------------------- */
-
-#footer {
-	padding: 25px;
-	text-align: center;
-	color: #bbb;
-	text-shadow: #fafafa 1px 1px 0;
-}
-	#footer a {
-		color: #bbb;
-	}
