@@ -64,7 +64,7 @@
 	<div id="header">
 		<div id="masthead">
 			<div id="branding" role="banner">
-				<img src="<?php bloginfo('url');?>/wp-content/themes/okfn/images/okf_logo.png" alt="OKF Logo" class="logo" />
+				<img src="http://assets.okfn.org/images/logo/okf_logo_white_and_green.png" alt="OKF Logo" class="logo" />
 				<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
 				<<?php echo $heading_tag; ?> id="site-title">
 					<span>
