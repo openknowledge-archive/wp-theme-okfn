@@ -4,20 +4,22 @@
   turquoise (okf new logo): #3b8e7f
 **/
 
+body {
+  color: #555;
+}
+
 h1, h2, h3, h4, h5, h6,
-#content h1, #content h2, #content h3,
-#content .entry-title
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6,
+#content .entry-title, .entry-title a:link, .entry-title a:visited
 {
-	color: #333;
+	color: #555;
 	font-weight: bold;
 	clear: none;
 	line-height: 1.3em;
 }
 
 #content h4 {
-	color: #6E99A4;
 	line-height: 1em;
-	margin: 0 0 5px;
 }
 
 #content .entry-title, h1 {
@@ -196,6 +198,12 @@ color:#d2d2d2;
 #content input,
 #content textarea {
 	color: #666;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#content input,
+#content textarea {
   font-size: 12px;
   line-height: 18px;
 }
@@ -220,6 +228,9 @@ ul {
 color:#666;
 }
 
+#content p:last-child {
+  margin-bottom: 0px;
+}
 
 /** main / pages
 -----------------------------------------------**/
@@ -231,6 +242,5 @@ color:#666;
 input[type="text"], textarea {
   -webkit-box-shadow: none;
   background: transparent;
-  border: none;
 }
 

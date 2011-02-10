@@ -1,6 +1,27 @@
 /* Load the default admin bar styles */
 @import url(../../plugins/buddypress/bp-themes/bp-default/_inc/css/adminbar.css);
 
+/* all of the buddypress pages
+  unfortunately for this to have an affect need to apply in each case to:
+#content,
+#content input,
+#content textarea
+
+So instead just do a bit of a hack and only apply to list tabs
+*/
+body.profile, body.members, body.messages, body.friends, body.groups, body.settings
+{
+}
+
+.item-list-tabs {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.clear {
+  clear: left;
+}
+
 /* > Item Headers (Profiles, Groups)
 -------------------------------------------------------------- */
 
@@ -363,7 +384,7 @@ form.standard-form#signup_form div div.error {
 
 a.button, input[type=submit], input[type=button], input[type=reset],
 ul.button-nav li a, div.generic-button a {
-	background: url( ../images/white-grad.png ) top left repeat-x;
+	background: url( images/white-grad.png ) top left repeat-x;
 	border: 1px solid #ddd;
 	padding: 3px 10px;
 	-moz-border-radius: 3px;
@@ -396,6 +417,10 @@ ul.button-nav li a, div.generic-button a {
 		float: left;
 		margin-left: 10px;
 	}
+
+ul.button-nav {
+  list-style: none;
+}
 
 ul.button-nav li {
 	float: left;
