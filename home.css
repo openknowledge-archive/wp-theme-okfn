@@ -8,6 +8,10 @@
 	position: relative;
 }
 
+#frontimage img {
+  width: 640px;
+}
+
 div.bubble_links {
 	position: absolute;
 	width: 120px;
