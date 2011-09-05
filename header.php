@@ -53,10 +53,6 @@
 	 */
 	wp_head();
 ?>
-<script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/jquery.curvycorners.min.js'></script>
-<script type='text/javascript' src='<?php bloginfo('url');?>/wp-content/themes/okfn/js/js_custom.js'></script>
-
-
 </head>
 
 <body <?php body_class(); ?>>
