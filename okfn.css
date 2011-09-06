@@ -244,3 +244,28 @@ input[type="text"], textarea {
   background: transparent;
 }
 
+/** rounded corners
+-----------------------------------------------**/
+
+#access,
+#primary li.widget-container,
+#secondary li.widget-container,
+div#primary ul ul li,
+#wpng-cal-widget-events {
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  border-radius: 10px; /* CSS3 */
+}
+
+.widget-container > * {
+  -moz-border-radius: 8px; /* Firefox */
+  -webkit-border-radius: 8px; /* Safari, Chrome */
+  border-radius: 8px; /* CSS3 */
+}
+
+#slideshow {
+  -moz-border-radius: 20px; /* Firefox */
+  -webkit-border-radius: 20px; /* Safari, Chrome */
+  border-radius: 20px; /* CSS3 */
+}
+
